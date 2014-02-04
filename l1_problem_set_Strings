@@ -1,0 +1,9 @@
+#given any string s, which of the following always have the same value as s?
+
+s='.'
+
+
+print ('a'+s) [1:]
+print s+''
+print s[0:]
+print s[0]+s[1:]

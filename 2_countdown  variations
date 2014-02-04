@@ -1,0 +1,51 @@
+# Use this to try out anything you like. Use print to display your answer
+# when you press the "Test Run" button.
+# Use the "Reset" button to reset the screen 
+
+#def counting(countdown):
+ #   while True:
+  #      if countdown>=0:
+   #         break
+    #    print countdown
+     #   countdown=countdown-1
+            
+
+
+
+#def counting(countdown):
+ #   while countdown>=0:
+  #      if False:
+   #         break
+    #
+     #   print countdown
+      #  countdown = countdown - 1
+
+
+
+#def counting(countdown):
+ #   while countdown >= 0:
+  #      print countdown
+   #     countdown = countdown - 1
+    #    break
+
+    
+    #while countdown >= 0:
+     # print countdown
+      #countdown = countdown - 1
+      #if countdown >= 0:
+       #   print countdown
+        #  countdown = countdown - 1
+      #else:
+       #     break
+          
+        
+#print counting(10)
+
+def counting(countdown):
+    while True:
+        if not countdown >= 0:
+            break
+        print countdown
+        countdown = countdown - 1
+        
+print counting(10)

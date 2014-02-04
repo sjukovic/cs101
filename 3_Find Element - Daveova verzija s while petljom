@@ -1,0 +1,14 @@
+def find_element(p,t):
+    i=0
+    while i<len(p):#uvjet - vrti dok god se ne proðe cijela lista
+        if p[i]==t: #provjera je li vrijednost i-tog elementa liste jednaka ciljanoj (t) vrijednosti
+            return i #ako je provjera zadovoljena,vraæa se indeks mjesta na kojem se nalazi tražena vrijednost
+        i=i+1 #ako uvjet nije zadovoljen, indeks se uveæava za 1
+    return -1 #ako proðe kroz cijelu petlju i ne naðe vrijdnost, vvraæa se broj '-1'
+    
+    
+print find_element([1,2,3],3)
+#>>> 2
+
+print find_element(['alpha','beta'],'gamma')
+#>>> -1

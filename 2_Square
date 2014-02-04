@@ -1,0 +1,8 @@
+def square(n):
+    return n*n
+    
+x=4 #change the value of x, and you change the value of y and directly affect the square(y) calculation
+y=square(x)
+
+print y
+print square(y)

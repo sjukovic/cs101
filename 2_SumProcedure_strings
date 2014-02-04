@@ -1,0 +1,10 @@
+def sum(a,b):
+    a=a+b
+    return a
+    
+s="hello! "
+t="Dave"
+
+print sum(s,t)
+print s
+print t
